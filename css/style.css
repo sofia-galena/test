@@ -28,7 +28,8 @@ body {
   display: none;
 }
 
-.menu__list-link {
+.menu__list-link,
+.menu__btn {
   color: #A6ABBD;
 }
 

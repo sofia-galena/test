@@ -18,7 +18,7 @@ body {
   padding: 0 16px;
 }
 
-.logo__link-img{
+.logo__link-img {
   display: block;
   margin: 0 auto;
   padding: 11px 0px 34px 0px;
@@ -28,7 +28,7 @@ body {
   display: none;
 }
 
-.menu__list {
+.menu__list-link {
   color: #A6ABBD;
 }
 

@@ -1,0 +1,112 @@
+html {
+  box-sizing: border-box;
+}
+
+*,*::after,*::before {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  color: #2E3A59;
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.logo__link-img {
+  display: block;
+  margin: 0 auto;
+  padding: 11px 0px 34px 0px;
+}
+
+.menu {
+  display: none;
+}
+
+.menu__list-link,
+.menu__btn {
+  color: #A6ABBD;
+}
+
+.benefits__title {
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding: 0;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  width: 288px;
+}
+
+.benefits__box-img {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+}
+
+.slider__item-img {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.slider__item-text {
+  width: 176px;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 37px;
+}
+
+.slick-dots {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-left: 0px;
+  padding-bottom: 60px;
+}
+
+.slick-dots button {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: none;
+  font-size: 0;
+  background-color: #E5E5E5;
+  padding: 0;
+  margin: 0px 5px;
+}
+
+.slick-dots .slick-active button {
+  background-color: #A6ABBD;
+}
+
+.slider {
+  position: relative;
+}
+
+.slick-btn {
+  position: absolute;
+  top: 76%;
+  width: 20px;
+  height: 20px;
+  background-image: url(../images/prev.svg);
+  background-color: transparent;
+  background-repeat: no-repeat;
+  border: none;
+}
+
+.slick-prev {
+  left: 55px;
+  top: 77%;
+}
+
+.slick-next {
+  right: 55px;
+  transform: rotate(180deg);
+}

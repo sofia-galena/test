@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
     prevArrow: '<button type="button" class="slick-btn slick-prev"></button>',
   });
 
-  const toggles = document.querySelectorAll(".benefits__item-title");
+  const toggles = document.querySelectorAll(".benefits__item-title,.benefits__toggle");
 
   toggles.forEach((toggle) => {
     toggle.addEventListener("click", () => {
